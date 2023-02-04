@@ -10,5 +10,5 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
 # Speak the text
-engine.say("Hello, How can I help you?")
+engine.say("Hello World")
 engine.runAndWait()
