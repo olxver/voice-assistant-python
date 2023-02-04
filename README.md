@@ -66,4 +66,4 @@ while True:
 
 
 - you can add anything you want to this, e.g apis or even deep learning models.
-- mind, this can have some bugs so report them in 'bugs' section
+- mind, this can have some bugs so report them in 'issues' section
