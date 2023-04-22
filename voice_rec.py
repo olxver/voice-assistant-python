@@ -40,7 +40,7 @@ while True:
         if any(keyword in recognized_text for keyword in exit_keywords): # if the keywords are found in the 'recognized_text' exit the program
             print("Exiting the program")
             break
-        wiki_keywords = ["exit", "leave", "stop"]
+        wiki_keywords = ["what is", "tell me about", "search wiki"]
         if any(keyword in recognized_text for keyword in wiki_keywords):  
             search_query = recognized_text.replace("search wiki", "").replace("what is", "").replace("tell me about", "").strip()
             page = wiki.page(search_query)
